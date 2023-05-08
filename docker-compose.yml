@@ -1,8 +1,8 @@
 version: '3'
 services:
   web-server:
-    build: .      
-    image: sunnymean/nginx_njs 
+    build: . 
+    image: sunnymean/nginx_njs:latest
     volumes:
       - type: bind
         source: conf/my.conf
